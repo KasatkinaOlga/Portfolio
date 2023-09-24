@@ -24,6 +24,19 @@
 **Метрика качества модели** 
 >sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»), максимально низкое значение.
 
-**Рассмотренные модели** 
-> LinearRegression, RandomForestRegressor
+**Рассмотренные модели и использованные библиотеки** 
+> LinearRegression, RandomForestRegressor   
+>1. import **pandas** as pd
+>2. import **matplotlib.pyplot** as plt
+>3. import **numpy** as np
+>4. import **seaborn** as sns
+>5. from **datetime** import datetime
+>6. from **sklearn.preprocessing** import StandardScaler
+>7. from **sklearn.linear_model** import LinearRegression
+>8. from **sklearn.model_selection** import cross_val_score
+>9. from **sklearn.metrics** import make_scorer
+>10. from **sklearn.ensemble** import RandomForestRegressor
+>11. from **sklearn.dummy** import DummyRegressor
+
+
 
