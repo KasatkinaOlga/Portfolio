@@ -1,42 +1,23 @@
-# Portfolio
-## 1. Разработка модели восстановления золота из руды    
-**Заказчик:** 
->*Компания "Цифры". Компания разрабатывает решения для эффективной работы промышленных предприятий.*
+#**Gold_recovery**
 
+**Описание проекта:**  
+Модель должна предсказать коэффициент восстановления золота из золотосодержащей руды.Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками
 
+**Инструменты:**
+pandas,matplotlib,numpy,seaborn,datetime,LinearRegression,RandomForestRegressor 
 
-**Цель проекта:** 
->подготовка прототипа модели машинного обучения для «Цифры».    
-Модель должна предсказать коэффициент восстановления золота из золотосодержащей руды.    
-Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.   
+#**Text_Classifier**
 
-**Исходные данные:** 
->3 датасета  с параметрами добычи и очистки на различных этапах технологического процесса.    
+**Описание проекта:**  
+Модель должна выявлять токсичные комментарии в твиттере.
 
-**Стадии технологического процесса:**    
+**Инструменты:**
+pandas,matplotlib,numpy,seaborn,nltk,sklearn,tqdm,catboost,CountVectorizer,LogisticRegression,RandomForestClassifier,WordNetLemmatizer
 
->**1. Флотация**
-    Во флотационную установку подаётся смесь золотосодержащей руды. После обогащения получается черновой концентрат и «отвальные хвосты», то есть остатки продукта с низкой концентрацией ценных металлов.
-    На стабильность этого процесса влияет непостоянное и неоптимальное физико-химическое состояние флотационной пульпы (смеси твёрдых частиц и жидкости).  
-  **2. Очистка** 
-    Черновой концентрат проходит две очистки. На выходе получается финальный концентрат и новые отвальные хвосты.
+#**Steel**
 
-**Метрика качества модели** 
->sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»), максимально низкое значение.
+**Описание проекта:**  
+Разработка модели, предсказывающей конечную температуру сплава с целью оптимизации энергопотребления завода на этапе обработки стали.
 
-**Рассмотренные модели и использованные библиотеки** 
-> LinearRegression, RandomForestRegressor   
->1. import **pandas** as pd
->2. import **matplotlib.pyplot** as plt
->3. import **numpy** as np
->4. import **seaborn** as sns
->5. from **datetime** import datetime
->6. from **sklearn.preprocessing** import StandardScaler
->7. from **sklearn.linear_model** import LinearRegression
->8. from **sklearn.model_selection** import cross_val_score
->9. from **sklearn.metrics** import make_scorer
->10. from **sklearn.ensemble** import RandomForestRegressor
->11. from **sklearn.dummy** import DummyRegressor
-
-
-
+**Инструменты:**
+pandas,matplotlib,numpy,seaborn,lightgbm,sklearn,StandardScaler,LinearRegression,RandomForestRegressor,GridSearchCV.
