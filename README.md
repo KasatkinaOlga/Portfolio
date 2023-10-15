@@ -6,9 +6,9 @@
 Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками
 
 **Инструменты:**  
-- pandas,matplotlib,numpy,  
-- seaborn,datetime,  
-- LinearRegression,RandomForestRegressor 
+- Pandas, Matplotlib, NumPy, Python, 
+- Seaborn, Datetime, Scikit-learn, 
+- LinearRegression, RandomForestRegressor 
 
 # Text_Classifier
 
@@ -17,9 +17,9 @@
 Модель должна выявлять токсичные комментарии в твиттере.
 
 **Инструменты:**   
-- pandas, matplotlib, numpy,   
-- seaborn, nltk, sklearn, tqdm,    
-- catboost, CountVectorizer, LogisticRegression,   
+- Pandas, Python, Scikit-learn,   
+- Seaborn, nltk, tqdm, tf-idf,   
+- Catboost, CountVectorizer, LogisticRegression,   
 - RandomForestClassifier, WordNetLemmatizer
 
 # Steel
@@ -29,7 +29,7 @@
 Разработка модели, предсказывающей конечную температуру сплава с целью оптимизации энергопотребления завода на этапе обработки стали.
 
 **Инструменты:**  
-- pandas,matplotlib,numpy,   
-- seaborn,lightgbm,sklearn,   
-- StandardScaler,LinearRegression,   
-- RandomForestRegressor,GridSearchCV.
+- Pandas, Matplotlib, NumPy, Python,  
+- Seaborn, Lightgbm, Scikit-learn,   
+- StandardScaler, LinearRegression,   
+- RandomForestRegressor, GridSearchCV.
