@@ -1,3 +1,14 @@
+# Predictive_risk_model_for_pregnant_women
+
+**Описание проекта:**
+
+Разработка прогностической модели рисков беременных
+
+**Инструменты:**  
+- Pandas, Matplotlib, Python, 
+- Seaborn,Sklearn, 
+- LinearRegression, RandomForestRegressor 
+
 # Computer_games
 
 **Описание проекта:**
